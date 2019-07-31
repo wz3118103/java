@@ -1,5 +1,7 @@
 package concurrent.net.jcip.examples;
 
+import concurrent.jmmsynchronization.jcip.ch03.Holder;
+
 /**
  * StuffIntoPublic
  * <p/>

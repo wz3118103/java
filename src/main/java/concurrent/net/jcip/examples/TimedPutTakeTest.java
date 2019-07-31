@@ -1,5 +1,7 @@
 package concurrent.net.jcip.examples;
 
+import concurrent.thread.jcip.PutTakeTest;
+
 import java.util.concurrent.*;
 
 /**

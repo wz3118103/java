@@ -2,6 +2,7 @@ package concurrent.net.jcip.examples;
 
 import java.util.*;
 
+import concurrent.jmmsynchronization.jcip.ch04.Point;
 import net.jcip.annotations.*;
 
 /**
