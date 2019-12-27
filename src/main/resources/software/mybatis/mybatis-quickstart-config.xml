@@ -26,7 +26,7 @@
 
 	<!-- 映射文件，mapper的配置文件 -->
  	<mappers>
-		<mapper resource="software/mybatis/sqlmapper/TUserMapper.xml" />
+		<mapper resource="software/mybatis/sqlmapper/quickstart/TUserMapperQuickStart.xml" />
 	</mappers>
 
 </configuration>

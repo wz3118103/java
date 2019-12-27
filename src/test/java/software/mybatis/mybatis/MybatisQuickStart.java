@@ -6,8 +6,8 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Before;
 import org.junit.Test;
-import software.mybatis.entity.TUser;
-import software.mybatis.mapper.TUserMapper;
+import software.mybatis.entity.TUserQuickStart;
+import software.mybatis.mapper.TUserMapperQuickStart;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,7 +17,7 @@ public class MybatisQuickStart {
 
     @Before
     public void init() throws IOException {
-        String resource = "software/mybatis/mybatis-config.xml";
+        String resource = "software/mybatis/mybatis-quickstart-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         inputStream.close();
@@ -26,8 +26,8 @@ public class MybatisQuickStart {
     @Test
     public void quickStart() {
         SqlSession sqlSession = sqlSessionFactory.openSession();
-        TUserMapper mapper = sqlSession.getMapper(TUserMapper.class);
-        TUser user = mapper.selectByPrimaryKey(1);
+        TUserMapperQuickStart mapper = sqlSession.getMapper(TUserMapperQuickStart.class);
+        TUserQuickStart user = mapper.selectByPrimaryKey(1);
         System.out.println(user);
     }
 }
