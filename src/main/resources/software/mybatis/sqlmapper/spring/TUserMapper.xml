@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="software.mybatis.demo.mapper.TUserMapper">
+<mapper namespace="software.mybatis.spring.mapper.TUserMapper">
 	
  	<!--<cache></cache>-->
 
@@ -29,7 +29,7 @@
 	</resultMap>
 
 	<resultMap id="userAndPosition2" extends="BaseResultMap" type="TUser">
-		<association property="position" fetchType="lazy"  column="position_id" select="software.mybatis.demo.mapper.TPositionMapper.selectByPrimaryKey" />
+		<association property="position" fetchType="lazy"  column="position_id" select="software.mybatis.spring.mapper.TPositionMapper.selectByPrimaryKey" />
 	</resultMap>
 
 
@@ -66,7 +66,7 @@
 
 	<resultMap id="userAndJobs1" extends="BaseResultMap" type="TUser">
 		<collection property="jobs"
-			ofType="software.mybatis.demo.entity.TJobHistory" >
+			ofType="software.mybatis.spring.entity.TJobHistory" >
 			<result column="comp_name" property="compName" jdbcType="VARCHAR" />
 			<result column="years" property="years" jdbcType="INTEGER" />
 			<result column="title" property="title" jdbcType="VARCHAR" />
@@ -75,7 +75,7 @@
 
 	<resultMap id="userAndJobs2" extends="BaseResultMap" type="TUser">
 		<collection property="jobs" fetchType="lazy" column="id"
-			select="software.mybatis.demo.mapper.TJobHistoryMapper.selectByUserId" />
+			select="software.mybatis.spring.mapper.TJobHistoryMapper.selectByUserId" />
 	</resultMap>
 
 	<select id="selectUserJobs1" resultMap="userAndJobs1">
@@ -107,12 +107,12 @@
 	
 	<resultMap id="userAndHealthReportMale" extends="userAndHealthReport" type="TUser">
 		<collection property="healthReports" column="id"
-			select= "software.mybatis.demo.mapper.THealthReportMaleMapper.selectByUserId"></collection>
+			select= "software.mybatis.spring.mapper.THealthReportMaleMapper.selectByUserId"></collection>
 	</resultMap>
 	
 	<resultMap id="userAndHealthReportFemale" extends="userAndHealthReport" type="TUser">
 		<collection property="healthReports" column="id"
-			select= "software.mybatis.demo.mapper.THealthReportFemaleMapper.selectByUserId"></collection>
+			select= "software.mybatis.spring.mapper.THealthReportFemaleMapper.selectByUserId"></collection>
 	</resultMap>
 	
 	<resultMap id="userAndHealthReport" extends="BaseResultMap" type="TUser">
@@ -178,7 +178,7 @@
 
 
 	<select id="selectByEmailAndSex3" resultMap="BaseResultMap"
-		parameterType="software.mybatis.demo.entity.EmailSexBean">
+		parameterType="software.mybatis.spring.entity.EmailSexBean">
 		select
 		<include refid="Base_Column_List" />
 		from t_user a

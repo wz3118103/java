@@ -2,7 +2,7 @@ package software.mybatis.jdbc;
 
 
 import org.junit.Test;
-import software.mybatis.entity.TUser;
+import software.mybatis.demo.entity.TUser;
 
 import java.sql.*;
 import java.util.ArrayList;
