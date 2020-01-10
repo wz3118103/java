@@ -15,7 +15,7 @@
 		<package name="software.mybatis.demo.entity"/>
 	</typeAliases>
 
-	<plugins>
+<!--	<plugins>
 		<plugin interceptor="software.mybatis.demo.interceptors.ThresholdInterceptor">
 			<property name="threshold" value="10"/>
 		</plugin>
@@ -23,7 +23,7 @@
 		 <plugin interceptor="com.github.pagehelper.PageInterceptor">
 			<property name="pageSizeZero" value="true" />
 		</plugin>
-	</plugins>
+	</plugins>-->
 
 
 	<!--配置environment环境 -->

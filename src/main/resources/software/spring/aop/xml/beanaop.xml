@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+    <!--(1) -->
+    <bean id="helloService" class="software.spring.aop.xml.HelloServiceBoImpl"/>
+
+    <!--(2) -->
+    <bean id="myAspect" class="software.spring.aop.xml.MyAspect"/>
+
+    <aop:config proxy-target-class="true">
+        <!--(3) -->
+        <aop:pointcut id="pointcut"
+                      expression="execution(* *..*BoImpl.sayHello(String)) and args(content)" />
+        <!--(4) -->
+        <aop:aspect ref="myAspect">
+            <!--(4.1) -->
+            <aop:before pointcut-ref="pointcut" method="beforeAdvice" arg-names="content"/>
+            <!--(4.2) -->
+            <aop:after pointcut="execution(* *..*BoImpl.sayHello(..))"
+                       method="afterAdvice" arg-names="jp"/>
+            <!--(4.3) -->
+            <aop:after-returning
+                    pointcut="execution(* *..*BoImpl.sayHelloAfterReturn(..))" method="afterReturningAdvice"
+                    arg-names="value" returning="value"/>
+            <!--(4.4) -->
+            <aop:after-throwing pointcut="execution(* *..*BoImpl.sayHelloThrowExecption(..))"
+                                method="afterThrowingAdvice" arg-names="e" throwing="e"/>
+            <!--(4.5) -->
+            <aop:around pointcut="execution(* *..*BoImpl.sayHelloAround(..))"
+                        method="aroundAdvice"/>
+        </aop:aspect>
+    </aop:config>
+    <!--(5) -->
+    <bean id="tracingInterceptor" class="software.spring.aop.xml.TracingInterceptor"/>
+
+    <!--(6) -->
+    <aop:config>
+        <aop:pointcut id="pointcutForadVisor" expression="execution(* *..*BoImpl.sayHelloAdvisor(..))"/>
+        <aop:advisor pointcut-ref="pointcutForadVisor" advice-ref="tracingInterceptor"/>
+    </aop:config>
+</beans>
