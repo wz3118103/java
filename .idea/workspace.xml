@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a13ecf01-77ed-4e7b-a27f-44e588958773" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/library/script/corejava/v2ch08/sourceAnnotations/ToStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basics/datastructure/effectivejava/chapter6/item34/WeightTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/UnsafeCountingFactorizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch04/MonitorVehicleTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch04/ListHelpers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/MyThreadFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/PuzzleNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/PuzzleSolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/atomic/jcip/AtomicPseudoRandom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch08/MyThreadFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch08/ConcurrentPuzzleSolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch12/XorShift.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/jcip/ch13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/atomic/jcip/ch15/AtomicPseudoRandom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/Animals.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch12/BarrierTimer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch07/CheckForMail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/ConnectionDispenser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch10/CooperatingNoDeadlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/CountingSheep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch10/DeadlockAvoidance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/jcip/ch13/TimedLocking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch05/LaunderThrowable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch07/NoncancelableTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch02/NonreentrantDeadlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch05/ProducerConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch06/RenderWithTimeBudget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch05/SafeVectorHelpers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/Secrets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/concurrenttools/jcip/ch14/SemaphoreBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/StuffIntoPublic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch12/TestBoundedBuffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch12/TestThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch06/TimeBudget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch07/TimedRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch08/TransformingSequential.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch05/UnsafeVectorHelpers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/artconcurrentbook/chapter01/DeadLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/artconcurrentbook/chapter03/FinalExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/thread/artconcurrentbook/chapter04/Join.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/artconcurrentbook/chapter05/Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/artconcurrentbook/chapter06/CountTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/artconcurrentbook/chapter06/ConcurrentPutHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/atomic/artconcurrentbook/chapter07/AtomicIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/concurrenttools/artconcurrentbook/chapter08/ExchangerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/artconcurrentbook/chapter10/ConcurrentTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/threadpool/artconcurrentbook/chapter11/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/compileoptimization/ch11/Sum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/understandingjvm/compileoptimization/ch11/Sum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/understandingjvm/concurrency/ch12/Singleton.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repo" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="710" />
+    <option name="y" value="106" />
+    <option name="width" value="1131" />
+    <option name="height" value="926" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\java\src\main\resources" />
+      <recent name="E:\IdeaProjects\java\src\main\java" />
+      <recent name="E:\IdeaProjects\java\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\java\src\main\java\jvm\understandingjvm\concurrency" />
+      <recent name="E:\IdeaProjects\java\src\main\java\jvm\compileoptimization" />
+      <recent name="E:\IdeaProjects\java\src\main\java\jvm\understandingjvm\executionsubsystem" />
+      <recent name="E:\IdeaProjects\java\src\main\java\jvm\understandingjvm\memorymanagement" />
+      <recent name="E:\IdeaProjects\java\src\main\java\concurrent\threadpool\artconcurrentbook" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a13ecf01-77ed-4e7b-a27f-44e588958773" name="Default" comment="" />
+      <created>1564492472069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564492472069</updated>
+      <workItem from="1564492478545" duration="135000" />
+      <workItem from="1564492746399" duration="439000" />
+      <workItem from="1564493221091" duration="76000" />
+      <workItem from="1564493307416" duration="1184000" />
+      <workItem from="1564532111236" duration="17223000" />
+      <workItem from="1577368412027" duration="253000" />
+      <workItem from="1585015193002" duration="39000" />
+    </task>
+    <task id="LOCAL-00001" summary="concurrency">
+      <created>1564542040103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564542040103</updated>
+    </task>
+    <task id="LOCAL-00002" summary="concurrency modify">
+      <created>1564553129550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564553129550</updated>
+    </task>
+    <task id="LOCAL-00003" summary="art concurrency">
+      <created>1564553805619</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564553805619</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jvm">
+      <created>1564557845722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564557845722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19349000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="710" y="106" width="1131" height="926" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014006" side_tool="true" visible="true" weight="0.32994923" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.11975591" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49859944" visible="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21777222" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30999067" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31866953" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.01660281" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2816167" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32934928" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="concurrency" />
+    <MESSAGE value="concurrency modify" />
+    <MESSAGE value="art concurrency" />
+    <MESSAGE value="jvm" />
+    <option name="LAST_COMMIT_MESSAGE" value="jvm" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/atomic/jcip/ch15/CasNumberRange.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/atomic/jcip/ch15/ReentrantLockPseudoRandom.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/atomic/jcip/ch15/AtomicPseudoRandom.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/atomic/jcip/ch15/PseudoRandom.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/atomic/jcip/ch15/ConcurrentStack.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/atomic/jcip/ch15/LinkedQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/Animals.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch12/BarrierTimer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch07/CheckForMail.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/ConnectionDispenser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch10/CooperatingDeadlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch10/CooperatingNoDeadlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/CountingSheep.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch10/DeadlockAvoidance.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch10/DynamicOrderDeadlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch10/InduceLockOrder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/lock/jcip/ch13/TimedLocking.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/lock/jcip/ch13/InterruptibleLocking.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/net/jcip/examples/ListenerExamples.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch05/LaunderThrowable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch07/NoncancelableTask.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch02/NonreentrantDeadlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch05/ProducerConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch06/RenderWithTimeBudget.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch05/SafeVectorHelpers.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/Secrets.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/jcip/ch03/StuffIntoPublic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch12/TestBoundedBuffer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch12/SemaphoreBoundedBuffer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/thread/jcip/ch12/TestThreadPool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch06/TimeBudget.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch07/TimedRun.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch07/TimedRun1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch07/TimedRun2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/threadpool/jcip/ch08/TransformingSequential.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/jcip/ch05/UnsafeVectorHelpers.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/jmmsynchronization/artconcurrentbook/chapter03/FinalExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/concurrentcollections/artconcurrentbook/chapter06/CountTask.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
